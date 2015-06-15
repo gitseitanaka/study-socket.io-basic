@@ -28,7 +28,7 @@
       socket.on('timer', function(msg){
         console.log('timer rise!');
 //      socket.close();
-//	socket = io();
+//      socket = io();
       });
       socket.on('chat message', function(msg){
         $('#messages').append($('<li>').text(msg));
